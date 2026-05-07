@@ -12,3 +12,5 @@ __pycache__/
 *.pyc
 .DS_Store
 mlruns/
+.dvc/cache/
+.dvc/tmp/
