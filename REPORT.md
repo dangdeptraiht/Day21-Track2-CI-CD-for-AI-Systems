@@ -31,3 +31,16 @@ Bộ tham số `n_estimators=300` và `max_depth=15` mang lại kết quả cao 
     - *Giải quyết:* Cập nhật workflow để hỗ trợ cả hai branch `main` và `master`.
 - **Khó khăn 3:** Accuracy ban đầu thấp hơn 0.70.
     - *Giải quyết:* Tinh chỉnh siêu tham số (tăng `max_depth` và `n_estimators`) để đạt hiệu suất mong muốn.
+
+## 4. Minh chứng kết quả (Screenshots)
+
+Dưới đây là các hình ảnh minh chứng cho kết quả của dự án:
+
+### 4.1 MLflow UI - Kết quả thực nghiệm
+![MLflow UI](screenshots/mlflow_ui.png)
+
+### 4.2 GitHub Actions - Pipeline CI/CD thành công
+![GitHub Actions](screenshots/github_actions.png)
+
+### 4.3 GCS & API Result - Triển khai thực tế
+![GCS & API](screenshots/gcs_and_api.png)
